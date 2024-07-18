@@ -141,3 +141,12 @@ input, label{
   padding-top: 12px;
 }
   
+input[name="password"]:invalid{
+  border: 2px solid red;
+}
+input[name="conf_password"]:invalid{
+  border: 2px solid red;
+}
+input:focus{
+  border: 2px solid blue;
+}
